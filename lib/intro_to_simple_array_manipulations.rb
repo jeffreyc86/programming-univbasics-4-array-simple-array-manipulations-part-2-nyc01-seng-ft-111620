@@ -2,5 +2,6 @@ def using_concat (array1, array2)
   array1.concat (array2)
 end
 
-def using_insert (Array)
-  Array.insert ()
+def using_insert (Array, new)
+  Array.insert (4, new)
+end
